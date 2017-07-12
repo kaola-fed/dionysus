@@ -1,0 +1,23 @@
+{
+  "name": "dionysus",
+  "version": "1.0.0",
+  "description": "VSCode extension for nek-ui",
+  "main": "convert.js",
+  "scripts": {
+    "build": "node convert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaola-fed/dionysus.git"
+  },
+  "keywords": [],
+  "author": "Cody Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaola-fed/dionysus/issues"
+  },
+  "homepage": "https://github.com/kaola-fed/dionysus#readme",
+  "devDependencies": {
+    "node-atomizr": "^0.6.0"
+  }
+}

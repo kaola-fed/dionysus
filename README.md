@@ -1,2 +1,2 @@
 # dionysus
-VSCode extension for nek-ui
+nek-ui snippets for VSCode & Atom & SumlimeText

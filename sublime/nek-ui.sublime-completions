@@ -1,0 +1,97 @@
+{
+    "scope": "text.html(.basic)",
+    "completions": [
+        {
+            "contents": "<kl-card title=\"$1\">\n    $0\n</kl-card>",
+            "trigger": "kl-card\t卡片"
+        },
+        {
+            "contents": "<kl-row>\n    <kl-col span=3>\n        $0\n    </kl-col>\n</kl-row>",
+            "trigger": "kl-row\t栅格"
+        },
+        {
+            "contents": "<kl-table source={${1:list}}>\n    <kl-table-col name=\"$2\" key=\"$3\" />$0\n</kl-table>",
+            "trigger": "kl-table\t表格"
+        },
+        {
+            "contents": "<kl-button type=\"${1:primary}\" title=\"$2\" />",
+            "trigger": "kl-button\t按钮"
+        },
+        {
+            "contents": "<kl-check name=\"$1\" />",
+            "trigger": "kl-check\t复选框"
+        },
+        {
+            "contents": "<kl-check-group source={${1:source}} />",
+            "trigger": "kl-check-group\t复选组"
+        },
+        {
+            "contents": "<kl-date-picker />",
+            "trigger": "kl-date-picker\t日期选择"
+        },
+        {
+            "contents": "<kl-form>\n    <kl-row>\n        <kl-col span=3>\n            <kl-form-item title=\"$1\">\n                $0\n            </kl-form-item>\n        </kl-col>\n    </kl-row>\n</kl-form>",
+            "trigger": "kl-form\t表单"
+        },
+        {
+            "contents": "<kl-input type=\"$1\" />",
+            "trigger": "kl-input\t输入框"
+        },
+        {
+            "contents": "<kl-multi-select source={${1:source}} />",
+            "trigger": "kl-multi-select\t多级选择"
+        },
+        {
+            "contents": "<kl-radio-group source={${1:source}} />",
+            "trigger": "kl-radio-group\t单选组"
+        },
+        {
+            "contents": "<kl-select source={${1:source}} />",
+            "trigger": "kl-select\t下拉选择"
+        },
+        {
+            "contents": "<kl-text text=\"$1\" />",
+            "trigger": "kl-text\t文本"
+        },
+        {
+            "contents": "<kl-textarea placeholder=\"$1\" />",
+            "trigger": "kl-textarea\t文本输入"
+        },
+        {
+            "contents": "<kl-upload action=\"$1\" />",
+            "trigger": "kl-upload\t上传"
+        },
+        {
+            "contents": "<kl-pop-confirm content=\"$1\">\n    $0\n</kl-pop-confirm>",
+            "trigger": "kl-pop-confirm\t确认提示"
+        },
+        {
+            "contents": "<kl-crumb separator=\"/\">\n    <kl-crumb-item><kl-icon type=\"home2\" color=\"#E31436\" /></kl-crumb-item>\n    <kl-crumb-item>$1</kl-crumb-item>\n    <kl-crumb-item>$2</kl-crumb-item>\n</kl-crumb>\n",
+            "trigger": "kl-crumb\t面包屑"
+        },
+        {
+            "contents": "<kl-pager current=$1 sumTotal=$2 pageSize=$3 />",
+            "trigger": "kl-pager\t分页"
+        },
+        {
+            "contents": "<kl-steps steps={${1:steps}} current=$2 />",
+            "trigger": "kl-steps\t步骤"
+        },
+        {
+            "contents": "<kl-tabs>\n    <kl-tab title=\"$1\">$2</kl-tab>$0\n</kl-tabs>",
+            "trigger": "kl-tabs\t选项卡"
+        },
+        {
+            "contents": "<kl-icon type=\"$1\" />",
+            "trigger": "kl-icon\t图标"
+        },
+        {
+            "contents": "<kl-loading visible=$1 />",
+            "trigger": "kl-loading\t加载中"
+        },
+        {
+            "contents": "<kl-tooltip tip=\"$1\">\n    $0\n</kl-tooltip>",
+            "trigger": "kl-tooltip\t文字提示"
+        }
+    ]
+}
