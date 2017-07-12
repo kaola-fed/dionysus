@@ -1,5 +1,5 @@
 # dionysus
-nek-ui snippets for VSCode & Atom & Sumlime Text
+[nek-ui](https://github.com/kaola-fed/nek-ui) snippets for VSCode & Atom & Sumlime Text
 
 NEKUI 常用代码片段，基于 VSCode Snippets 写的，然后转到 Atom 和 Sublime Text 的格式
 
