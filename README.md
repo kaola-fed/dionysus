@@ -23,6 +23,6 @@ Preferences > Browse Packages > User，下载 [nek-ui.sublime-completions](subli
 
 ![sublime](https://user-images.githubusercontent.com/2230882/28130897-dd26a1c2-676a-11e7-9872-403171af958a.gif)
 
-## 需要更新？
+## Update?
 
-基于 VSCode Snippets 写的，然后转到 Atom 和 Sublime Text 的格式，如果有修改，**只需要需改** `vscode/snippets.json`，然后 `npm run build` 即可
+基于 VSCode Snippets 写的，然后转到 Atom 和 Sublime Text 的格式，如果有修改，**只需要需改** `vscode` 下的文件，然后 `npm run build` 即可
