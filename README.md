@@ -9,13 +9,13 @@ Snippets of [nek-ui](https://github.com/kaola-fed/nek-ui) && kmui which support 
 
 ## VSCode
 
-File > Preferences (Code > Preferences on Mac) > Snippets，选择 HTML，把 [vscode](vscode/nek-ui.json) 内容拷贝进去
+File > Preferences (Code > Preferences on Mac) > Snippets，选择 HTML，把 [nek-ui.json](vscode/nek-ui.json) 内容拷贝进去
 
 ![vscode](https://user-images.githubusercontent.com/2230882/28130899-dd4bf170-676a-11e7-9ecf-40286d610f97.gif)
 
 ## Atom
 
-File > Snippets，把 [snippets.cson](atom/nek-ui.cson) 内容拷贝进去
+File > Snippets，把 [nek-ui.cson](atom/nek-ui.cson) 内容拷贝进去
 
 ![atom](https://user-images.githubusercontent.com/2230882/28130898-dd400edc-676a-11e7-9535-1a8242200741.gif)
 
