@@ -21,6 +21,16 @@ Preferences > Browse Packages > User，下载 [nek-ui.sublime-completions](subli
 
 ![sublime](https://user-images.githubusercontent.com/2230882/28130897-dd26a1c2-676a-11e7-9872-403171af958a.gif)
 
+## IntelliJ IDEA
+- 下载 [settings.jar](intellij idea/settings.jar) File > import Settings, 选择下载下来的jar文件，点击ok即可
+
+- Windows: <your_user_home_directory>\.IntelliJ IDEA<version_number>\config\templates
+Linux: ~IntelliJ IDEA<version>/config/templates
+macOS: ~/Library/Preferences/IntelliJ IDEA<version>/templates
+下载 [NEK UI.xml](intellij idea/NEK UI.xml)，放到 templates 目录下, 需要重启软件
+
+![IDEA](https://user-images.githubusercontent.com/13317454/28150779-4e4cb5d6-67c9-11e7-83ff-484b7f83b34c.gif)
+
 ## 需要更新？
 
 基于 VSCode Snippets 写的，然后转到 Atom 和 Sublime Text 的格式，如果有修改，**只需要需改** `vscode/snippets.json`，然后 `npm run build` 即可

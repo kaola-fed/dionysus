@@ -1,0 +1,290 @@
+<templateSet group="NEK UI">
+  <template name="&lt;kl-card" value="&lt;kl-card title=&quot;$1$&quot;&gt;&#10;    $2$&#10;&lt;/kl-card&gt;" description="卡片" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-row" value="&lt;kl-row&gt;&#10;    &lt;kl-col span=4&gt;&#10;    $1$&#10;    &lt;/kl-col&gt;&#10;&lt;/kl-row&gt;" description="栅格" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-table" value="  &lt;kl-table source={$1$}&gt;&#10;      &lt;kl-table-col name=&quot;$2$&quot; key=&quot;$3$&quot; /&gt;&#10;  &lt;/kl-table&gt;" description="表格" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-button" value="&lt;kl-button type=&quot;secondary&quot; title=&quot;$1$&quot; /&gt;" description="按钮" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-check" value="&lt;kl-check name=&quot;$1$&quot; /&gt;" description="复选框" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-check-group" value="&lt;kl-check-group source={$1$} /&gt;" description="复选组" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-date-picker" value="&lt;kl-date-picker date={$1$} /&gt;" description="日期选择" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-form" value="&lt;kl-form&gt;&#10;    &lt;kl-row&gt;&#10;        &lt;kl-col span=4&gt;&#10;            &lt;kl-form-item title=&quot;$1$&quot;&gt;&#10;                $0$&#10;            &lt;/kl-form-item&gt;&#10;        &lt;/kl-col&gt;&#10;    &lt;/kl-row&gt;&#10;&lt;/kl-form&gt;" description="表单" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-input" value="&lt;kl-input value=&quot;$1$&quot; /&gt;" description="输入框" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-radio-group" value="&lt;kl-radio-group source={$1$} /&gt;" description="单选组" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-select" value="&lt;kl-select source={$0$} value={$1$} /&gt;" description="下拉选择" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-text" value="&lt;kl-text text=&quot;$1$&quot; /&gt;" description="文本" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-textarea" value="&lt;kl-textarea placeholder=&quot;$0$&quot; value={$1$} /&gt;" description="文本输入" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-upload" value="&lt;kl-upload action=&quot;$1$&quot; /&gt;" description="上传" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-pop-confirm" value="&lt;kl-pop-confirm content=&quot;$1$&quot;&gt;&#10;    $0$&#10;&lt;/kl-pop-confirm&gt;" description="确认提示" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-crumb" value="&lt;kl-crumb separator=&quot;/&quot;&gt;&#10;    &lt;kl-crumb-item&gt;&lt;kl-icon type=&quot;home2&quot; color=&quot;#E31436&quot; /&gt;&lt;/kl-crumb-item&gt;&#10;    &lt;kl-crumb-item&gt;$1$&lt;/kl-crumb-item&gt;&#10;    &lt;kl-crumb-item&gt;$2$&lt;/kl-crumb-item&gt;&#10;&lt;/kl-crumb&gt;" description="面包屑" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-pager" value="&lt;kl-pager current={$1$} sumTotal={$2$} pageSize={$3$} /&gt;" description="分页" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-steps" value="&lt;kl-steps steps={$1$} current={$2$} /&gt;" description="步骤" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-tabs" value="&lt;kl-tabs&gt;&#10;    &lt;kl-tab title=&quot;$1$&quot;&gt;$2$&lt;/kl-tab&gt;&#10;&lt;/kl-tabs&gt;" description="选项卡" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-icon" value="&lt;kl-icon type=&quot;$1$&quot; /&gt;" description="图标" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-loading" value="&lt;kl-loading visible=$1$ /&gt;" description="加载中" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;kl-tooltip" value="&lt;kl-tooltip tip=&quot;$1$&quot;&gt;&#10;    $SELECTION$&#10;&lt;/kl-tooltip&gt;" description="文字提示" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-card" value="&lt;kl-card title=&quot;$1$&quot;&gt;&#10;    $2$&#10;&lt;/kl-card&gt;" description="卡片" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-row" value="&lt;kl-row&gt;&#10;    &lt;kl-col span=4&gt;&#10;    $1$&#10;    &lt;/kl-col&gt;&#10;&lt;/kl-row&gt;" description="栅格" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-table" value="  &lt;kl-table source={$1$}&gt;&#10;      &lt;kl-table-col name=&quot;$2$&quot; key=&quot;$3$&quot; /&gt;&#10;  &lt;/kl-table&gt;" description="表格" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-button" value="&lt;kl-button type=&quot;secondary&quot; title=&quot;$2$&quot; /&gt;" description="按钮" toReformat="true" toShortenFQNames="true">
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-check" value="&lt;kl-check name=&quot;$1$&quot; /&gt;" description="复选框" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-check-group" value="&lt;kl-check-group source={$1$} /&gt;" description="复选组" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-date-picker" value="&lt;kl-date-picker date={$1$} /&gt;" description="日期选择" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-form" value="&lt;kl-form&gt;&#10;    &lt;kl-row&gt;&#10;        &lt;kl-col span=4&gt;&#10;            &lt;kl-form-item title=&quot;$1$&quot;&gt;&#10;                $0$&#10;            &lt;/kl-form-item&gt;&#10;        &lt;/kl-col&gt;&#10;    &lt;/kl-row&gt;&#10;&lt;/kl-form&gt;" description="表单" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-input" value="&lt;kl-input value=&quot;$1$&quot; /&gt;" description="输入框" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-radio-group" value="&lt;kl-radio-group source={$1$} /&gt;" description="单选组" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-select" value="&lt;kl-select source={$0$} value={$1$} /&gt;" description="下拉选择" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-text" value="&lt;kl-text text=&quot;$1$&quot; /&gt;" description="文本" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-textarea" value="&lt;kl-textarea placeholder=&quot;$0$&quot; value={$1$} /&gt;" description="文本输入" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-upload" value="&lt;kl-upload action=&quot;$1$&quot; /&gt;" description="上传" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-pop-confirm" value="&lt;kl-pop-confirm content=&quot;$1$&quot;&gt;&#10;    $0$&#10;&lt;/kl-pop-confirm&gt;" description="确认提示" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-crumb" value="&lt;kl-crumb separator=&quot;/&quot;&gt;&#10;    &lt;kl-crumb-item&gt;&lt;kl-icon type=&quot;home2&quot; color=&quot;#E31436&quot; /&gt;&lt;/kl-crumb-item&gt;&#10;    &lt;kl-crumb-item&gt;$1$&lt;/kl-crumb-item&gt;&#10;    &lt;kl-crumb-item&gt;$2$&lt;/kl-crumb-item&gt;&#10;&lt;/kl-crumb&gt;" description="面包屑" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-pager" value="&lt;kl-pager current={$1$} sumTotal={$2$} pageSize={$3$} /&gt;" description="分页" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-steps" value="&lt;kl-steps steps={$1$} current={$2$} /&gt;" description="步骤" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-tabs" value="&lt;kl-tabs&gt;&#10;    &lt;kl-tab title=&quot;$1$&quot;&gt;$2$&lt;/kl-tab&gt;&#10;&lt;/kl-tabs&gt;" description="选项卡" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-icon" value="&lt;kl-icon type=&quot;$1$&quot; /&gt;" description="图标" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-loading" value="&lt;kl-loading visible=$1$ /&gt;" description="加载中" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="kl-tooltip" value="&lt;kl-tooltip tip=&quot;$1$&quot;&gt;&#10;    $SELECTION$&#10;&lt;/kl-tooltip&gt;" description="文字提示" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
