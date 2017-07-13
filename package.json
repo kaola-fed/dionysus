@@ -1,7 +1,7 @@
 {
-  "name": "dionysus",
+  "name": "dionysus-snippets",
   "version": "1.0.0",
-  "description": "VSCode extension for nek-ui",
+  "description": "nek-ui/kmui snippets for VSCode & Atom & Sumlime Text",
   "main": "convert.js",
   "scripts": {
     "build": "node convert.js"
