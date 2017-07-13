@@ -1,5 +1,5 @@
 {
-    "scope": "text.html(.basic)",
+    "scope": "text.html.basic",
     "completions": [
         {
             "contents": "<kl-card title=\"$1\">\n    $0\n</kl-card>",

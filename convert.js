@@ -1,4 +1,4 @@
-const { vscode2atom, vscode2sublime } = require('node-atomizr');
+const Atomizr = require('node-atomizr');
 const path = require('path');
 const fs = require('fs');
 
@@ -10,17 +10,29 @@ function stringifyBody(snippets) {
   return JSON.stringify(snippets);
 }
 
-const vscodePath = path.join(__dirname, 'vscode/snippets.json');
-const atomPath = path.join(__dirname, 'atom/snippets.cson');
-const sublimePath = path.join(__dirname, 'sublime/nek-ui.sublime-completions');
+function convertFormat(filePath) {
+  const type = path.basename(filePath).split('.')[0];
 
-let vscodeSnippets = fs.readFileSync(vscodePath, 'utf8');
-vscodeSnippets = stringifyBody(vscodeSnippets);
+  let sourceSnippets = fs.readFileSync(filePath, 'utf8');
+  sourceSnippets = stringifyBody(sourceSnippets);
+  ['atom', 'sublime'].forEach(target => {
+    const suffix = target === 'atom' ? 'cson' : 'sublime-completions';
+    const targetSnippets = Atomizr['vscode2' + target](sourceSnippets, {
+      scope: '.text.html.basic',
+    });
 
-const atomSnippets = vscode2atom(vscodeSnippets, {scope: '.text.html.basic' });
-fs.writeFileSync(atomPath, atomSnippets, 'utf8');
+    const targetPath = path.join(__dirname, target, `${type}.${suffix}`);
+    fs.writeFileSync(targetPath, targetSnippets, 'utf8');
+  })
+}
 
-const sublimeSnippets = vscode2sublime(vscodeSnippets, { scope: 'text.html(.basic)' });
-fs.writeFileSync(sublimePath, sublimeSnippets, 'utf8');
+function walk() {
+  const sourceDir = path.join(__dirname, 'vscode');
+  fs.readdirSync(sourceDir).forEach(file => {
+    const filePath = path.join(sourceDir, file);
+    convertFormat(filePath);
+  })
+}
 
+walk();
 console.log('Done!');

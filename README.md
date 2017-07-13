@@ -1,5 +1,5 @@
 # dionysus
-[nek-ui](https://github.com/kaola-fed/nek-ui) snippets for VSCode & Atom & Sumlime Text
+[nek-ui](https://github.com/kaola-fed/nek-ui)/kmui snippets for VSCode & Atom & Sumlime Text
 
 ## VSCode
 

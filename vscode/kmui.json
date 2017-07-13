@@ -1,0 +1,9 @@
+{
+  "轮播": {
+    "prefix": "KMCarousel",
+    "body": [
+      "<KMCarousel list={${1:list}} layout={$2}/>$0"
+    ],
+    "description": "轮播"
+  }
+}

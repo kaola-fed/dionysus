@@ -1,0 +1,9 @@
+{
+    "scope": "text.html.basic",
+    "completions": [
+        {
+            "contents": "<KMCarousel list={${1:list}} layout={$2}/>",
+            "trigger": "KMCarousel\t轮播"
+        }
+    ]
+}
