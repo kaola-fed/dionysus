@@ -1,6 +1,8 @@
 # dionysus
 [nek-ui](https://github.com/kaola-fed/nek-ui)/kmui snippets for VSCode & Atom & Sumlime Text
 
+> 如果是 IDEA，见[这里](https://github.com/kaola-fed/dionysus/issues/1)
+
 ## VSCode
 
 File > Preferences (Code > Preferences on Mac) > Snippets，选择 HTML，把 [snippets.json](vscode/snippets.json) 内容拷贝进去
@@ -20,18 +22,6 @@ Preferences > Browse Packages > User，下载 [nek-ui.sublime-completions](subli
 > Sublime Text 默认使用 `crtl+space` 作为呼出预览列表命令 `auto_complete` 的快捷键，如果冲突请重新设置其它快捷键
 
 ![sublime](https://user-images.githubusercontent.com/2230882/28130897-dd26a1c2-676a-11e7-9872-403171af958a.gif)
-
-## IntelliJ IDEA
-- 方法一：下载 [settings.jar](intellij idea/settings.jar) File > import Settings, 选择下载下来的jar文件，点击ok即可
-
-- 方法二：下载 [NEK UI.xml](intellij idea/NEK UI.xml)，放到 templates 目录下, 需要重启软件
-> Windows: <your_user_home_directory>\.IntelliJ IDEA<version_number>\config\templates
-
-> Linux: ~IntelliJ IDEA<version>/config/templates
-
-> macOS: ~/Library/Preferences/IntelliJ IDEA<version>/templates
-
-![IDEA](https://user-images.githubusercontent.com/13317454/28150779-4e4cb5d6-67c9-11e7-83ff-484b7f83b34c.gif)
 
 ## 需要更新？
 
